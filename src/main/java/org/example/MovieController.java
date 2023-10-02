@@ -39,7 +39,6 @@ public class MovieController {
 
     @PutMapping("/{id}")
     public Movie update(@PathVariable String id, @RequestBody Movie movie) {
-        // Additional code for updating and handling LastModified attribute
         return movieRepository.save(movie);
     }
 

@@ -89,7 +89,6 @@ public class Movie {
         this.lastModified = lastModified;
     }
 
-    // Optional: Override the toString method for easy debugging and logging
     @Override
     public String toString() {
         return "Movie{" +
